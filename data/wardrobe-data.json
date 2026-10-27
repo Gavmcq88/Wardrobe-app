@@ -1,0 +1,2437 @@
+{
+ "profile": {
+  "season": "Soft Summer, cool-leaning (~70% confidence)",
+  "undertone": "neutral-cool",
+  "value": "light-medium",
+  "chroma": "soft",
+  "contrast": "low-medium"
+ },
+ "palette": [
+  {
+   "group": "Core neutrals",
+   "colours": [
+    {
+     "id": "charcoal",
+     "name": "Charcoal",
+     "hex": "#4A4E54",
+     "japanese": "鈍色 / nibi-iro",
+     "reference": "Like wet slate. Your best dark neutral near the face.",
+     "use": "Suits, trousers, knits, coats",
+     "pairsWith": [
+      "Soft sky blue",
+      "Lilac grey",
+      "Wine",
+      "Pale aqua"
+     ]
+    },
+    {
+     "id": "heather",
+     "name": "Heather grey",
+     "hex": "#9A9EA3",
+     "japanese": "銀鼠 / gin-nezumi",
+     "reference": "Matches your hair. Very calm on your skin.",
+     "use": "Knits, tees, trousers",
+     "pairsWith": [
+      "Greyed navy",
+      "Spruce",
+      "Dusty teal",
+      "Dusty plum"
+     ]
+    },
+    {
+     "id": "navy",
+     "name": "Greyed navy",
+     "hex": "#2E3A55",
+     "japanese": "紺 / kon",
+     "reference": "Dark faded denim, not bright royal navy. Your black replacement.",
+     "use": "Knits, blazers, trousers",
+     "pairsWith": [
+      "Soft sky blue",
+      "Shell pink",
+      "Stone",
+      "Muted raspberry"
+     ]
+    },
+    {
+     "id": "slate",
+     "name": "Slate blue-grey",
+     "hex": "#6B7B8C",
+     "japanese": "錆御納戸 / sabi-onando",
+     "reference": "Storm-cloud blue. Good for overshirts and chore jackets.",
+     "use": "Overshirts, knits, chinos",
+     "pairsWith": [
+      "Soft white",
+      "Muted oxblood",
+      "Sage",
+      "Dusty mauve-pink"
+     ]
+    },
+    {
+     "id": "taupe",
+     "name": "Cool taupe",
+     "hex": "#8C8279",
+     "japanese": "茶鼠 / cha-nezumi",
+     "reference": "Mushroom, not tan. Use it for wide trousers.",
+     "use": "Trousers, knitwear",
+     "pairsWith": [
+      "Sage",
+      "Soft white",
+      "Greyed navy",
+      "Lilac grey"
+     ]
+    },
+    {
+     "id": "white",
+     "name": "Soft white",
+     "hex": "#F2F0EB",
+     "japanese": "白練 / shironeri",
+     "reference": "Clean white with no yellow cast.",
+     "use": "Tees, shirts, sneakers",
+     "pairsWith": [
+      "Greyed navy",
+      "Spruce",
+      "Slate blue-grey",
+      "Cornflower denim"
+     ]
+    },
+    {
+     "id": "stone",
+     "name": "Stone",
+     "hex": "#CFC9C0",
+     "japanese": "砂色 / suna-iro",
+     "reference": "Grey-beige chino colour. Better on you than khaki.",
+     "use": "Chinos, golf trousers, shorts",
+     "pairsWith": [
+      "Greyed navy",
+      "Sage",
+      "Spruce",
+      "Soft sky blue"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Leather & shoes",
+   "colours": [
+    {
+     "id": "cocoa",
+     "name": "Dark cocoa",
+     "hex": "#5A4A42",
+     "japanese": "焦茶 / kogecha",
+     "reference": "Dark chocolate suede or leather.",
+     "use": "Shoes, belts, straps",
+     "pairsWith": [
+      "Stone",
+      "Greyed navy",
+      "Heather grey",
+      "Sage"
+     ]
+    },
+    {
+     "id": "oxblood",
+     "name": "Muted oxblood",
+     "hex": "#5E3A3F",
+     "japanese": "臙脂 / enji",
+     "reference": "Deep brownish wine leather.",
+     "use": "Loafers, belts",
+     "pairsWith": [
+      "Charcoal",
+      "Greyed navy",
+      "Slate blue-grey",
+      "Stone"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Greens & blues",
+   "colours": [
+    {
+     "id": "sage",
+     "name": "Sage",
+     "hex": "#9CAF9A",
+     "japanese": "利休鼠 / rikyū-nezumi",
+     "reference": "Like your sage polo. One of your top colours.",
+     "use": "Polos, tees, knits",
+     "pairsWith": [
+      "Stone",
+      "Charcoal",
+      "Greyed navy",
+      "Soft white"
+     ]
+    },
+    {
+     "id": "teal",
+     "name": "Dusty teal",
+     "hex": "#4F7F80",
+     "japanese": "錆浅葱 / sabi-asagi",
+     "reference": "Greyed blue-green, softer than turquoise.",
+     "use": "Knits, tees, socks",
+     "pairsWith": [
+      "Heather grey",
+      "Charcoal",
+      "Stone",
+      "Soft white"
+     ]
+    },
+    {
+     "id": "spruce",
+     "name": "Spruce",
+     "hex": "#2F4F45",
+     "japanese": "千歳緑 / chitose-midori",
+     "reference": "Deep pine green, like your knit and the Paul Smith coat.",
+     "use": "Knits, coats, cords",
+     "pairsWith": [
+      "Soft white",
+      "Heather grey",
+      "Stone",
+      "Soft sky blue"
+     ]
+    },
+    {
+     "id": "aqua",
+     "name": "Pale aqua",
+     "hex": "#B5D3D1",
+     "japanese": "瓶覗 / kamenozoki",
+     "reference": "Faint blue-green. It lifts your face.",
+     "use": "Hoodies, polos, tees",
+     "pairsWith": [
+      "Slate blue-grey",
+      "Greyed navy",
+      "Heather grey",
+      "Soft white"
+     ]
+    },
+    {
+     "id": "sky",
+     "name": "Soft sky blue",
+     "hex": "#A9C3DB",
+     "japanese": "水色 / mizu-iro",
+     "reference": "Classic office-shirt blue, like your Tyrwhitt sky twill.",
+     "use": "Shirts, polos",
+     "pairsWith": [
+      "Greyed navy",
+      "Charcoal",
+      "Stone",
+      "Wine"
+     ]
+    },
+    {
+     "id": "cornflower",
+     "name": "Cornflower denim",
+     "hex": "#6F8FB3",
+     "japanese": "縹色 / hanada-iro",
+     "reference": "Mid-wash denim blue. Replace the cobalt tee with this.",
+     "use": "Tees, denim, chambray",
+     "pairsWith": [
+      "Soft white",
+      "Stone",
+      "Heather grey",
+      "Greyed navy"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Purples, pinks & reds",
+   "colours": [
+    {
+     "id": "lilac",
+     "name": "Lilac grey",
+     "hex": "#B7A9C9",
+     "japanese": "藤色 / fuji-iro",
+     "reference": "Wisteria. Like your Tyrwhitt lilac shirt.",
+     "use": "Shirts, knits",
+     "pairsWith": [
+      "Charcoal",
+      "Greyed navy",
+      "Heather grey",
+      "Cool taupe"
+     ]
+    },
+    {
+     "id": "plum",
+     "name": "Dusty plum",
+     "hex": "#7A5C73",
+     "japanese": "鳩羽色 / hatoba-iro",
+     "reference": "Greyed purple. A quiet evening colour.",
+     "use": "Knits, ties, scarves",
+     "pairsWith": [
+      "Heather grey",
+      "Greyed navy",
+      "Charcoal",
+      "Stone"
+     ]
+    },
+    {
+     "id": "shell",
+     "name": "Shell pink",
+     "hex": "#E8D2D8",
+     "japanese": "桜色 / sakura-iro",
+     "reference": "Pale cool pink, like your pink oxford.",
+     "use": "Shirts, tees",
+     "pairsWith": [
+      "Greyed navy",
+      "Heather grey",
+      "Stone",
+      "Charcoal"
+     ]
+    },
+    {
+     "id": "mauve",
+     "name": "Dusty mauve-pink",
+     "hex": "#C9A3B1",
+     "japanese": "灰桜 / hai-zakura",
+     "reference": "Greyed pink with a lilac base.",
+     "use": "Knits, polos",
+     "pairsWith": [
+      "Charcoal",
+      "Slate blue-grey",
+      "Greyed navy",
+      "Heather grey"
+     ]
+    },
+    {
+     "id": "wine",
+     "name": "Wine",
+     "hex": "#5E2A3A",
+     "japanese": "葡萄色 / ebi-iro",
+     "reference": "How you wear red now: deep, cool burgundy.",
+     "use": "Knits, cords, scarves",
+     "pairsWith": [
+      "Charcoal",
+      "Heather grey",
+      "Greyed navy",
+      "Soft sky blue"
+     ]
+    },
+    {
+     "id": "raspberry",
+     "name": "Muted raspberry",
+     "hex": "#A04A64",
+     "japanese": "蘇芳 / suō",
+     "reference": "A cool red for small doses.",
+     "use": "Ties, socks, pocket squares",
+     "pairsWith": [
+      "Greyed navy",
+      "Charcoal",
+      "Soft white",
+      "Heather grey"
+     ]
+    }
+   ]
+  }
+ ],
+ "wardrobe": [
+  {
+   "id": "coatChar",
+   "name": "Hugo Boss charcoal coat",
+   "category": "Coats & outerwear",
+   "hex": "#55575A",
+   "verdict": "keep",
+   "note": "Your best coat near your face."
+  },
+  {
+   "id": "coatCamel",
+   "name": "Hugo Boss camel coat",
+   "category": "Coats & outerwear",
+   "hex": "#B8956A",
+   "verdict": "wear differently",
+   "note": "Always with navy, grey or charcoal at the neck."
+  },
+  {
+   "id": "coatGreen",
+   "name": "Paul Smith bottle green coat",
+   "category": "Coats & outerwear",
+   "hex": "#2C3B33",
+   "verdict": "keep",
+   "note": "Wear a lighter layer underneath."
+  },
+  {
+   "id": "peacoat",
+   "name": "Ted Baker plum peacoat",
+   "category": "Coats & outerwear",
+   "hex": "#4A2A3A",
+   "verdict": "keep",
+   "note": "Close to dusty plum. Pair with greys."
+  },
+  {
+   "id": "barbour",
+   "name": "Barbour navy quilted jacket",
+   "category": "Coats & outerwear",
+   "hex": "#2B3247",
+   "verdict": "keep",
+   "note": "Autumn and spring layer."
+  },
+  {
+   "id": "puffer",
+   "name": "Navy hooded puffer",
+   "category": "Coats & outerwear",
+   "hex": "#263049",
+   "verdict": "keep",
+   "note": "Everyday winter jacket."
+  },
+  {
+   "id": "giletNavy",
+   "name": "Tommy Hilfiger navy gilet",
+   "category": "Coats & outerwear",
+   "hex": "#2E3650",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "parka",
+   "name": "North Face black parka",
+   "category": "Coats & outerwear",
+   "hex": "#1A1A1C",
+   "verdict": "wear differently",
+   "note": "Properly cold days and mountains."
+  },
+  {
+   "id": "giletBlack",
+   "name": "North Face black gilet",
+   "category": "Coats & outerwear",
+   "hex": "#1E1E20",
+   "verdict": "wear differently",
+   "note": "Hiking. The navy gilet suits you better."
+  },
+  {
+   "id": "sherpa",
+   "name": "Black sherpa fleece",
+   "category": "Coats & outerwear",
+   "hex": "#1B1B1B",
+   "verdict": "wear differently",
+   "note": "Home and weekends. Replace with navy or grey."
+  },
+  {
+   "id": "hhFleece",
+   "name": "Helly Hansen orange-red fleece",
+   "category": "Coats & outerwear",
+   "hex": "#D9532B",
+   "verdict": "retire",
+   "note": "Hiking or garden jobs only."
+  },
+  {
+   "id": "blzBlue",
+   "name": "Light blue textured blazer",
+   "category": "Blazers & overshirts",
+   "hex": "#A9C3DB",
+   "verdict": "keep",
+   "note": "Summer weddings and evenings."
+  },
+  {
+   "id": "blzPink",
+   "name": "Pale pink textured blazer",
+   "category": "Blazers & overshirts",
+   "hex": "#E6CDD3",
+   "verdict": "keep",
+   "note": "Statement piece. Keep everything else quiet."
+  },
+  {
+   "id": "blzNavyJ",
+   "name": "Navy jersey blazer",
+   "category": "Blazers & overshirts",
+   "hex": "#2F3D73",
+   "verdict": "keep",
+   "note": "Smart-casual rather than formal office."
+  },
+  {
+   "id": "denimJkt",
+   "name": "Washed black denim jacket",
+   "category": "Blazers & overshirts",
+   "hex": "#3A3B3E",
+   "verdict": "keep",
+   "note": "Faded to charcoal."
+  },
+  {
+   "id": "ovStone",
+   "name": "Stone overshirt",
+   "category": "Blazers & overshirts",
+   "hex": "#D6CBBE",
+   "verdict": "keep",
+   "note": "Keep cool colours underneath."
+  },
+  {
+   "id": "ovSalmon",
+   "name": "Salmon pink overshirt",
+   "category": "Blazers & overshirts",
+   "hex": "#E39A92",
+   "verdict": "retire",
+   "note": "Warm salmon, and stained."
+  },
+  {
+   "id": "ovCheck",
+   "name": "Large black and white check overshirt",
+   "category": "Blazers & overshirts",
+   "hex": "#4A4A4A",
+   "verdict": "retire",
+   "note": "Too much contrast."
+  },
+  {
+   "id": "knGrey",
+   "name": "Hugo Boss mid-grey merino crew",
+   "category": "Knitwear",
+   "hex": "#8E9094",
+   "verdict": "keep",
+   "note": "Main black replacement."
+  },
+  {
+   "id": "knBurg",
+   "name": "Hugo Boss burgundy merino crew",
+   "category": "Knitwear",
+   "hex": "#6A2635",
+   "verdict": "keep",
+   "note": "Evening knit. Red, worn your way."
+  },
+  {
+   "id": "knBossTeal",
+   "name": "Hugo Boss deep teal-green crew",
+   "category": "Knitwear",
+   "hex": "#234A47",
+   "verdict": "keep",
+   "note": "Office and evenings."
+  },
+  {
+   "id": "knUniTeal",
+   "name": "Uniqlo teal-green crew",
+   "category": "Knitwear",
+   "hex": "#24504B",
+   "verdict": "keep",
+   "note": "Weekends."
+  },
+  {
+   "id": "knPSGreen",
+   "name": "Paul Smith forest green half-zip",
+   "category": "Knitwear",
+   "hex": "#2E4A3C",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "knPSNavy",
+   "name": "Paul Smith navy half-zip",
+   "category": "Knitwear",
+   "hex": "#252F48",
+   "verdict": "keep",
+   "note": "Office over a shirt."
+  },
+  {
+   "id": "knSelNavy",
+   "name": "Selected navy crew",
+   "category": "Knitwear",
+   "hex": "#2A3550",
+   "verdict": "keep",
+   "note": "Under the camel coat."
+  },
+  {
+   "id": "knCK",
+   "name": "Calvin Klein cornflower merino",
+   "category": "Knitwear",
+   "hex": "#6F8FC0",
+   "verdict": "keep",
+   "note": "Brings out your eyes."
+  },
+  {
+   "id": "knAqua",
+   "name": "Pale aqua fine knit",
+   "category": "Knitwear",
+   "hex": "#B5D3D1",
+   "verdict": "keep",
+   "note": "Spring and summer evenings."
+  },
+  {
+   "id": "knWhite",
+   "name": "White ribbed knit",
+   "category": "Knitwear",
+   "hex": "#F1EFEA",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "knFarah",
+   "name": "Farah pale grey quarter-zip",
+   "category": "Knitwear",
+   "hex": "#C5C7C9",
+   "verdict": "keep",
+   "note": "Weekend neutral."
+  },
+  {
+   "id": "hoodAqua",
+   "name": "Pale aqua hoodie",
+   "category": "Knitwear",
+   "hex": "#B7D6D3",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "knMilano",
+   "name": "Selected black milano knit",
+   "category": "Knitwear",
+   "hex": "#1C1C1E",
+   "verdict": "wear differently",
+   "note": "White tee showing at the neck."
+  },
+  {
+   "id": "knWaffle",
+   "name": "Selected black waffle knit",
+   "category": "Knitwear",
+   "hex": "#202022",
+   "verdict": "wear differently",
+   "note": "Under a coat or with white beneath."
+  },
+  {
+   "id": "knFCBlack",
+   "name": "French Connection black crew",
+   "category": "Knitwear",
+   "hex": "#1A1A1A",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "knBlackHZ",
+   "name": "Black half-zip",
+   "category": "Knitwear",
+   "hex": "#1D1D1F",
+   "verdict": "retire",
+   "note": "Worn and stretched."
+  },
+  {
+   "id": "knMustard",
+   "name": "Ted Baker mustard knit",
+   "category": "Knitwear",
+   "hex": "#C9A033",
+   "verdict": "retire",
+   "note": "Mustard is on your avoid list."
+  },
+  {
+   "id": "knFarahPink",
+   "name": "Farah salmon sweatshirt",
+   "category": "Knitwear",
+   "hex": "#D99A8E",
+   "verdict": "wear differently",
+   "note": "Lounging only."
+  },
+  {
+   "id": "poCTTeal",
+   "name": "Charles Tyrwhitt dusty teal ribbed polo",
+   "category": "Knitted polos",
+   "hex": "#4F7F80",
+   "verdict": "keep",
+   "note": "Faded collar: dye or replace later."
+  },
+  {
+   "id": "poSage",
+   "name": "Selected pale sage ribbed polo",
+   "category": "Knitted polos",
+   "hex": "#B8CDBF",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "poWhite",
+   "name": "Selected white textured polo",
+   "category": "Knitted polos",
+   "hex": "#F2F0EB",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "poCTNavy",
+   "name": "Charles Tyrwhitt navy ribbed polo",
+   "category": "Knitted polos",
+   "hex": "#2A3550",
+   "verdict": "keep",
+   "note": "Under a blazer."
+  },
+  {
+   "id": "poCTNavyB",
+   "name": "Charles Tyrwhitt navy button-through knit",
+   "category": "Knitted polos",
+   "hex": "#2B3550",
+   "verdict": "keep",
+   "note": "Open over a white tee."
+  },
+  {
+   "id": "poTaupe",
+   "name": "Charles Tyrwhitt taupe button-through knit",
+   "category": "Knitted polos",
+   "hex": "#A0968C",
+   "verdict": "keep",
+   "note": "Pair with navy or charcoal."
+  },
+  {
+   "id": "poPointelle",
+   "name": "Pale grey pointelle polo",
+   "category": "Knitted polos",
+   "hex": "#C9CBCC",
+   "verdict": "keep",
+   "note": "Summer evenings."
+  },
+  {
+   "id": "poSageOld",
+   "name": "Sage polo",
+   "category": "Knitted polos",
+   "hex": "#9CAF9A",
+   "verdict": "keep",
+   "note": "One of your best colours."
+  },
+  {
+   "id": "poZaraBlack",
+   "name": "Zara black long-sleeve knit polo",
+   "category": "Knitted polos",
+   "hex": "#1C1C1E",
+   "verdict": "wear differently",
+   "note": "Under a coat or blazer."
+  },
+  {
+   "id": "shWhite",
+   "name": "Charles Tyrwhitt white twill",
+   "category": "Long-sleeve shirts",
+   "hex": "#F7F7F5",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shSky",
+   "name": "Charles Tyrwhitt sky blue twill",
+   "category": "Long-sleeve shirts",
+   "hex": "#A9C3DB",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shSkyStripe",
+   "name": "Charles Tyrwhitt sky pinpoint stripe",
+   "category": "Long-sleeve shirts",
+   "hex": "#B4CBE0",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shLilac",
+   "name": "Charles Tyrwhitt lilac texture",
+   "category": "Long-sleeve shirts",
+   "hex": "#B7A9C9",
+   "verdict": "keep",
+   "note": "Best with a tie."
+  },
+  {
+   "id": "shGreenStripe",
+   "name": "Charles Tyrwhitt mid green stripe",
+   "category": "Long-sleeve shirts",
+   "hex": "#A8BFA6",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shRoyal",
+   "name": "Charles Tyrwhitt royal puppytooth",
+   "category": "Long-sleeve shirts",
+   "hex": "#3E5FA8",
+   "verdict": "wear differently",
+   "note": "Slightly strong. Under a knit."
+  },
+  {
+   "id": "shBossBlue",
+   "name": "Hugo Boss light blue oxford",
+   "category": "Long-sleeve shirts",
+   "hex": "#A6BCD8",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shBossPink",
+   "name": "Hugo Boss pale pink oxford",
+   "category": "Long-sleeve shirts",
+   "hex": "#EBD3DA",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shBand",
+   "name": "Farah white band-collar oxford",
+   "category": "Long-sleeve shirts",
+   "hex": "#F4F3F0",
+   "verdict": "keep",
+   "note": "Japanese direction."
+  },
+  {
+   "id": "shFlannel",
+   "name": "Farah heathered pink flannel",
+   "category": "Long-sleeve shirts",
+   "hex": "#C9A0B4",
+   "verdict": "wear differently",
+   "note": "Keep if it reads lilac-pink in daylight."
+  },
+  {
+   "id": "shWestern",
+   "name": "Light-wash denim western shirt",
+   "category": "Long-sleeve shirts",
+   "hex": "#A9C0D6",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shCheck",
+   "name": "AllSaints black and white check",
+   "category": "Long-sleeve shirts",
+   "hex": "#6E6E6E",
+   "verdict": "wear differently",
+   "note": "Open over a grey or white tee."
+  },
+  {
+   "id": "ssChambray",
+   "name": "Levi's chambray",
+   "category": "Short-sleeve shirts",
+   "hex": "#7F9CC0",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "ssSage",
+   "name": "Sage camp-collar shirt",
+   "category": "Short-sleeve shirts",
+   "hex": "#A9BBA2",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "ssBlueStripe",
+   "name": "H&M blue and white stripe",
+   "category": "Short-sleeve shirts",
+   "hex": "#9DB4D3",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "ssPink",
+   "name": "Charles Tyrwhitt pale pink oxford",
+   "category": "Short-sleeve shirts",
+   "hex": "#EBD3DA",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "ssCreamStripe",
+   "name": "Zara cream with navy stripe",
+   "category": "Short-sleeve shirts",
+   "hex": "#E9E4D8",
+   "verdict": "wear differently",
+   "note": "Holidays and lake evenings."
+  },
+  {
+   "id": "ssNextGrey",
+   "name": "Next ribbed stripe, white, grey and navy",
+   "category": "Short-sleeve shirts",
+   "hex": "#C8CCD2",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "ssNextGreen",
+   "name": "Next ribbed stripe, dark green and beige",
+   "category": "Short-sleeve shirts",
+   "hex": "#3E5244",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "ssJJ",
+   "name": "Jack & Jones textured white, beige stripe",
+   "category": "Short-sleeve shirts",
+   "hex": "#EEEAE2",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "ssOlive",
+   "name": "Greyed olive stripe",
+   "category": "Short-sleeve shirts",
+   "hex": "#8A8C6E",
+   "verdict": "wear differently",
+   "note": "On probation. Test against the sage shirt."
+  },
+  {
+   "id": "ssJJBlack",
+   "name": "Jack & Jones washed black denim",
+   "category": "Short-sleeve shirts",
+   "hex": "#4A4B4E",
+   "verdict": "wear differently",
+   "note": "Open over a white or grey tee."
+  },
+  {
+   "id": "ssYellow",
+   "name": "Farah yellow oxford",
+   "category": "Short-sleeve shirts",
+   "hex": "#E8D58A",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "ssTropical",
+   "name": "French Connection black and white print",
+   "category": "Short-sleeve shirts",
+   "hex": "#2A2A2A",
+   "verdict": "retire",
+   "note": "Beach only, if at all."
+  },
+  {
+   "id": "tSlate",
+   "name": "Hugo slate blue tee",
+   "category": "T-shirts",
+   "hex": "#6E8197",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "tAqua",
+   "name": "Hugo Boss pale aqua tee",
+   "category": "T-shirts",
+   "hex": "#BFDCD6",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "tLevisGreen",
+   "name": "Levi's forest green tee",
+   "category": "T-shirts",
+   "hex": "#2F4A3E",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "tZaraNavy",
+   "name": "Zara navy tee",
+   "category": "T-shirts",
+   "hex": "#2A3550",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "tMarl",
+   "name": "Grey marl print tee",
+   "category": "T-shirts",
+   "hex": "#A8A9AB",
+   "verdict": "keep",
+   "note": "Weekends."
+  },
+  {
+   "id": "tPSTeal",
+   "name": "Paul Smith teal-green tee",
+   "category": "T-shirts",
+   "hex": "#2C5B57",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "tASBlue",
+   "name": "AllSaints dusty blue tee",
+   "category": "T-shirts",
+   "hex": "#7C93A8",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "tKnitNavy",
+   "name": "Zara navy knitted tee",
+   "category": "T-shirts",
+   "hex": "#27304A",
+   "verdict": "keep",
+   "note": "Smarter than cotton."
+  },
+  {
+   "id": "tASPink",
+   "name": "AllSaints dusty pink tee",
+   "category": "T-shirts",
+   "hex": "#C9A3AE",
+   "verdict": "keep",
+   "note": "The right pink."
+  },
+  {
+   "id": "tBreton",
+   "name": "Zara cream and navy striped knit tee",
+   "category": "T-shirts",
+   "hex": "#ECE7DD",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "tASCream",
+   "name": "AllSaints cream print tee",
+   "category": "T-shirts",
+   "hex": "#EFE9DE",
+   "verdict": "keep",
+   "note": "Casual only."
+  },
+  {
+   "id": "tFCTeal",
+   "name": "French Connection teal tee",
+   "category": "T-shirts",
+   "hex": "#3E7473",
+   "verdict": "wear differently",
+   "note": "Worn. Home only."
+  },
+  {
+   "id": "tIlSarto",
+   "name": "Il Sarto sky blue slogan tee",
+   "category": "T-shirts",
+   "hex": "#A4C1DD",
+   "verdict": "wear differently",
+   "note": "Gym and lounging."
+  },
+  {
+   "id": "tCobalt",
+   "name": "Tommy Hilfiger cobalt tee",
+   "category": "T-shirts",
+   "hex": "#2D4FB5",
+   "verdict": "wear differently",
+   "note": "Casual days only."
+  },
+  {
+   "id": "tHMBlack",
+   "name": "H&M black relaxed tee",
+   "category": "T-shirts",
+   "hex": "#1C1C1E",
+   "verdict": "wear differently",
+   "note": "Under an open shirt."
+  },
+  {
+   "id": "tDunnes",
+   "name": "Dunnes black tee",
+   "category": "T-shirts",
+   "hex": "#202020",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "tBossBlack",
+   "name": "Hugo Boss black logo tee",
+   "category": "T-shirts",
+   "hex": "#1E1E1E",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "tSelBlack",
+   "name": "Selected faded black tee",
+   "category": "T-shirts",
+   "hex": "#3B3B3D",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "tLevisCoral",
+   "name": "Levi's coral-red tee",
+   "category": "T-shirts",
+   "hex": "#C55A55",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "tBossRed",
+   "name": "Hugo Boss red logo tee",
+   "category": "T-shirts",
+   "hex": "#C8202C",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "tRose",
+   "name": "Warm rose pink tee",
+   "category": "T-shirts",
+   "hex": "#D9727F",
+   "verdict": "retire",
+   "note": "Lounging only."
+  },
+  {
+   "id": "trUniNavy",
+   "name": "Uniqlo pleated trousers, navy",
+   "category": "Trousers & jeans",
+   "hex": "#2A3247",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "trUniChar",
+   "name": "Uniqlo pleated trousers, charcoal",
+   "category": "Trousers & jeans",
+   "hex": "#4B4D52",
+   "verdict": "keep",
+   "note": "Most versatile pair."
+  },
+  {
+   "id": "trUniBlack",
+   "name": "Uniqlo pleated trousers, black",
+   "category": "Trousers & jeans",
+   "hex": "#1E1E20",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "trCheck",
+   "name": "Grey and navy check trousers",
+   "category": "Trousers & jeans",
+   "hex": "#4B525E",
+   "verdict": "keep",
+   "note": "Office standout."
+  },
+  {
+   "id": "trStone",
+   "name": "Light stone tailored trousers",
+   "category": "Trousers & jeans",
+   "hex": "#CFC6B8",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "trPaleGrey",
+   "name": "Jack & Jones pale grey chinos",
+   "category": "Trousers & jeans",
+   "hex": "#C3C5C6",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "trBossNavy",
+   "name": "Hugo Boss navy chinos",
+   "category": "Trousers & jeans",
+   "hex": "#262E44",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "trNextNavy",
+   "name": "Next navy slim chinos",
+   "category": "Trousers & jeans",
+   "hex": "#2C3654",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "trWhite",
+   "name": "White chinos",
+   "category": "Trousers & jeans",
+   "hex": "#F3F1EC",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "trOlive",
+   "name": "Dark olive-brown chinos",
+   "category": "Trousers & jeans",
+   "hex": "#5B5440",
+   "verdict": "keep",
+   "note": "Cool colours on top."
+  },
+  {
+   "id": "trBlackChino",
+   "name": "Black chinos",
+   "category": "Trousers & jeans",
+   "hex": "#1E1E20",
+   "verdict": "keep",
+   "note": "Keep the better-fitting one."
+  },
+  {
+   "id": "trCream",
+   "name": "Cream chinos",
+   "category": "Trousers & jeans",
+   "hex": "#E6DCC8",
+   "verdict": "wear differently",
+   "note": "Only if it fits better than the white pair."
+  },
+  {
+   "id": "jZara",
+   "name": "Zara mid-wash jeans",
+   "category": "Trousers & jeans",
+   "hex": "#5E7DA6",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "jLevisLight",
+   "name": "Levi's light-wash jeans",
+   "category": "Trousers & jeans",
+   "hex": "#9BB3CF",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "jMustang",
+   "name": "Mustang black straight jeans",
+   "category": "Trousers & jeans",
+   "hex": "#2A2B2E",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "jLevisBlack",
+   "name": "Levi's black jeans",
+   "category": "Trousers & jeans",
+   "hex": "#2E2F33",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "trNavy2",
+   "name": "Second navy chinos",
+   "category": "Trousers & jeans",
+   "hex": "#2A3350",
+   "verdict": "retire",
+   "note": "Four navy pairs is one too many."
+  },
+  {
+   "id": "jSkinny",
+   "name": "Zara black skinny jeans",
+   "category": "Trousers & jeans",
+   "hex": "#2A2A2C",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "trBlack2",
+   "name": "Second black chinos",
+   "category": "Trousers & jeans",
+   "hex": "#1F1F21",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "shoNavy",
+   "name": "Jack & Jones navy chino shorts",
+   "category": "Shorts",
+   "hex": "#2B3550",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shoStone",
+   "name": "Jack & Jones stone chino shorts",
+   "category": "Shorts",
+   "hex": "#CFC6B8",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shoMid",
+   "name": "Mid-wash denim shorts",
+   "category": "Shorts",
+   "hex": "#5E7DA6",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shoLight",
+   "name": "Light-wash denim shorts",
+   "category": "Shorts",
+   "hex": "#9DB6D2",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shoWhite",
+   "name": "White chino shorts",
+   "category": "Shorts",
+   "hex": "#F3F1EC",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shoJersey",
+   "name": "Stone jersey drawstring shorts",
+   "category": "Shorts",
+   "hex": "#CBC2B4",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shoSage",
+   "name": "Sage jersey shorts",
+   "category": "Shorts",
+   "hex": "#9FB29D",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shoBlack",
+   "name": "Jack & Jones black chino shorts",
+   "category": "Shorts",
+   "hex": "#1E1E20",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shoHM",
+   "name": "H&M black denim shorts",
+   "category": "Shorts",
+   "hex": "#3A3B3E",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "shoPink",
+   "name": "Adidas salmon sweat shorts",
+   "category": "Shorts",
+   "hex": "#E2A196",
+   "verdict": "wear differently",
+   "note": "Grey or white tee on top."
+  },
+  {
+   "id": "shoRI",
+   "name": "River Island black denim shorts",
+   "category": "Shorts",
+   "hex": "#2C2C2E",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "shoMarked",
+   "name": "Off-white chino shorts (marked)",
+   "category": "Shorts",
+   "hex": "#E9E3D6",
+   "verdict": "retire",
+   "note": ""
+  },
+  {
+   "id": "fLoafNavy",
+   "name": "Navy suede tassel loafers",
+   "category": "Shoes",
+   "hex": "#262C40",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "fChelsea",
+   "name": "Black leather Chelsea boots",
+   "category": "Shoes",
+   "hex": "#151515",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "fDerby",
+   "name": "Bugatti black derbies",
+   "category": "Shoes",
+   "hex": "#141414",
+   "verdict": "keep",
+   "note": "Formal days."
+  },
+  {
+   "id": "fOxford",
+   "name": "Brown cap-toe oxfords",
+   "category": "Shoes",
+   "hex": "#7A5A48",
+   "verdict": "wear differently",
+   "note": "Cobbler refresh."
+  },
+  {
+   "id": "fBoots",
+   "name": "Brown lace-up boots",
+   "category": "Shoes",
+   "hex": "#5C4A3E",
+   "verdict": "wear differently",
+   "note": "Cobbler refresh."
+  },
+  {
+   "id": "fRoger",
+   "name": "On The Roger, white",
+   "category": "Shoes",
+   "hex": "#F4F4F2",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "fCampus",
+   "name": "Adidas Campus, cream suede",
+   "category": "Shoes",
+   "hex": "#E7E1D6",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "fNike",
+   "name": "Nike white and green",
+   "category": "Shoes",
+   "hex": "#E9EEE8",
+   "verdict": "keep",
+   "note": ""
+  },
+  {
+   "id": "fVans",
+   "name": "Black Vans",
+   "category": "Shoes",
+   "hex": "#1B1B1B",
+   "verdict": "keep",
+   "note": "Replace when worn out."
+  },
+  {
+   "id": "fNikin",
+   "name": "Nikin white trainers",
+   "category": "Shoes",
+   "hex": "#ECE9DF",
+   "verdict": "retire",
+   "note": "Yellowed."
+  },
+  {
+   "id": "wTissot",
+   "name": "Tissot PRX, ice blue dial",
+   "category": "Watches",
+   "hex": "#BFD9E6",
+   "verdict": "keep",
+   "note": "Your palette on your wrist. Summer, pale blues and light outfits."
+  },
+  {
+   "id": "wUnderdog",
+   "name": "Studio Underd0g chronograph, silver dial, mesh",
+   "category": "Watches",
+   "hex": "#B9BBBD",
+   "verdict": "keep",
+   "note": "Silver texture echoes your hair. Greys, lilac, pink and plum."
+  },
+  {
+   "id": "wLongines",
+   "name": "Longines HydroConquest, grey dial",
+   "category": "Watches",
+   "hex": "#5A5F63",
+   "verdict": "keep",
+   "note": "Most versatile. Greens, teal, weekends and coats."
+  },
+  {
+   "id": "wTag",
+   "name": "TAG Heuer Carrera day-date, blue dial",
+   "category": "Watches",
+   "hex": "#2B3A5C",
+   "verdict": "keep",
+   "note": "Office and navy. Small warm accents, so keep it with blues."
+  },
+  {
+   "id": "wMoon",
+   "name": "Omega x Swatch MoonSwatch, black",
+   "category": "Watches",
+   "hex": "#1C1C1E",
+   "verdict": "keep",
+   "note": "Black outfits and weekends. A grey or navy strap would widen its use."
+  },
+  {
+   "id": "bBlack",
+   "name": "Black leather belt",
+   "category": "Belts",
+   "hex": "#161616",
+   "verdict": "keep",
+   "note": "New."
+  },
+  {
+   "id": "bBrown",
+   "name": "Chocolate brown leather belt",
+   "category": "Belts",
+   "hex": "#4A362C",
+   "verdict": "keep",
+   "note": "New."
+  },
+  {
+   "id": "nWhite",
+   "name": "Arket heavyweight tees, soft white ×2",
+   "category": "On the shopping list",
+   "hex": "#F2F0EB",
+   "verdict": "to buy",
+   "note": ""
+  },
+  {
+   "id": "nHeather",
+   "name": "Arket heavyweight tee, heather grey",
+   "category": "On the shopping list",
+   "hex": "#A2A5A9",
+   "verdict": "to buy",
+   "note": ""
+  },
+  {
+   "id": "nNextPack",
+   "name": "Next heavyweight tees: burgundy, ecru, sage",
+   "category": "On the shopping list",
+   "hex": "#A7B9A1",
+   "verdict": "to buy",
+   "note": ""
+  },
+  {
+   "id": "nRoll",
+   "name": "Merino roll-neck, grey",
+   "category": "On the shopping list",
+   "hex": "#9A9EA3",
+   "verdict": "to buy",
+   "note": ""
+  },
+  {
+   "id": "nBlazer",
+   "name": "Suitsupply navy wool Havana blazer",
+   "category": "On the shopping list",
+   "hex": "#2E3A55",
+   "verdict": "to buy",
+   "note": ""
+  },
+  {
+   "id": "nShirtJkt",
+   "name": "Suitsupply navy wool shirt-jacket",
+   "category": "On the shopping list",
+   "hex": "#2B3550",
+   "verdict": "to buy",
+   "note": ""
+  },
+  {
+   "id": "nFlannel",
+   "name": "Suitsupply dark grey flannel trousers",
+   "category": "On the shopping list",
+   "hex": "#4A4E54",
+   "verdict": "to buy",
+   "note": "Optional."
+  },
+  {
+   "id": "nLoafer",
+   "name": "Suitsupply dark brown suede loafers",
+   "category": "On the shopping list",
+   "hex": "#5A4A42",
+   "verdict": "to buy",
+   "note": ""
+  },
+  {
+   "id": "nScarf",
+   "name": "Charcoal wool scarf",
+   "category": "On the shopping list",
+   "hex": "#4A4E54",
+   "verdict": "to buy",
+   "note": ""
+  }
+ ],
+ "outfits": [
+  {
+   "no": 1,
+   "occasion": "Office",
+   "title": "Sky and check",
+   "items": [
+    "Grey and navy check trousers",
+    "Charles Tyrwhitt sky blue twill",
+    "Paul Smith navy half-zip",
+    "Brown cap-toe oxfords",
+    "Hugo Boss charcoal coat"
+   ],
+   "watch": "TAG Heuer Carrera day-date, blue dial",
+   "note": "The easiest office day. The check reads as interest, not pattern.",
+   "itemIds": [
+    "trCheck",
+    "shSky",
+    "knPSNavy",
+    "fOxford",
+    "coatChar"
+   ],
+   "watchId": "wTag"
+  },
+  {
+   "no": 2,
+   "occasion": "Office",
+   "title": "Lilac and charcoal",
+   "items": [
+    "Uniqlo pleated trousers, charcoal",
+    "Charles Tyrwhitt lilac texture",
+    "Hugo Boss mid-grey merino crew",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "Studio Underd0g chronograph, silver dial, mesh",
+   "note": "Lilac calms facial redness. Add a tie for meetings.",
+   "itemIds": [
+    "trUniChar",
+    "shLilac",
+    "knGrey",
+    "fLoafNavy"
+   ],
+   "watchId": "wUnderdog"
+  },
+  {
+   "no": 3,
+   "occasion": "Office",
+   "title": "White, teal, camel",
+   "items": [
+    "Hugo Boss camel coat",
+    "Hugo Boss deep teal-green crew",
+    "Charles Tyrwhitt white twill",
+    "Hugo Boss navy chinos",
+    "Brown cap-toe oxfords"
+   ],
+   "watch": "Longines HydroConquest, grey dial",
+   "note": "The teal knit is the buffer between camel and your face.",
+   "itemIds": [
+    "coatCamel",
+    "knBossTeal",
+    "shWhite",
+    "trBossNavy",
+    "fOxford"
+   ],
+   "watchId": "wLongines"
+  },
+  {
+   "no": 4,
+   "occasion": "Office",
+   "title": "Pink under burgundy",
+   "items": [
+    "Uniqlo pleated trousers, charcoal",
+    "Hugo Boss pale pink oxford",
+    "Hugo Boss burgundy merino crew",
+    "Brown cap-toe oxfords",
+    "Hugo Boss charcoal coat"
+   ],
+   "watch": "Studio Underd0g chronograph, silver dial, mesh",
+   "note": "Pink and burgundy in the same family: how you wear red now.",
+   "itemIds": [
+    "trUniChar",
+    "shBossPink",
+    "knBurg",
+    "fOxford",
+    "coatChar"
+   ],
+   "watchId": "wUnderdog"
+  },
+  {
+   "no": 5,
+   "occasion": "Office",
+   "title": "Cornflower over blue",
+   "items": [
+    "Barbour navy quilted jacket",
+    "Calvin Klein cornflower merino",
+    "Hugo Boss light blue oxford",
+    "Next navy slim chinos",
+    "Brown lace-up boots"
+   ],
+   "watch": "TAG Heuer Carrera day-date, blue dial",
+   "note": "Tonal blues bring out your eyes.",
+   "itemIds": [
+    "barbour",
+    "knCK",
+    "shBossBlue",
+    "trNextNavy",
+    "fBoots"
+   ],
+   "watchId": "wTag"
+  },
+  {
+   "no": 6,
+   "occasion": "Office",
+   "title": "Green stripe and grey",
+   "items": [
+    "Grey and navy check trousers",
+    "Charles Tyrwhitt mid green stripe",
+    "Hugo Boss mid-grey merino crew",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "Longines HydroConquest, grey dial",
+   "note": "Soft and low contrast.",
+   "itemIds": [
+    "trCheck",
+    "shGreenStripe",
+    "knGrey",
+    "fLoafNavy"
+   ],
+   "watchId": "wLongines"
+  },
+  {
+   "no": 7,
+   "occasion": "Office",
+   "title": "Summer stone",
+   "items": [
+    "Navy jersey blazer",
+    "Charles Tyrwhitt sky pinpoint stripe",
+    "Light stone tailored trousers",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "Tissot PRX, ice blue dial",
+   "note": "Spring and summer office day.",
+   "itemIds": [
+    "blzNavyJ",
+    "shSkyStripe",
+    "trStone",
+    "fLoafNavy"
+   ],
+   "watchId": "wTissot"
+  },
+  {
+   "no": 8,
+   "occasion": "Office",
+   "title": "Teal polo, pale grey",
+   "items": [
+    "Navy jersey blazer",
+    "Charles Tyrwhitt dusty teal ribbed polo",
+    "Jack & Jones pale grey chinos",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "Tissot PRX, ice blue dial",
+   "note": "Hot days without a shirt.",
+   "itemIds": [
+    "blzNavyJ",
+    "poCTTeal",
+    "trPaleGrey",
+    "fLoafNavy"
+   ],
+   "watchId": "wTissot"
+  },
+  {
+   "no": 9,
+   "occasion": "Office",
+   "title": "Proper office navy",
+   "items": [
+    "Suitsupply navy wool Havana blazer",
+    "Charles Tyrwhitt white twill",
+    "Grey and navy check trousers",
+    "Suitsupply dark brown suede loafers",
+    "Hugo Boss charcoal coat"
+   ],
+   "watch": "TAG Heuer Carrera day-date, blue dial",
+   "note": "With the new Suitsupply blazer and loafers.",
+   "itemIds": [
+    "nBlazer",
+    "shWhite",
+    "trCheck",
+    "nLoafer",
+    "coatChar"
+   ],
+   "watchId": "wTag"
+  },
+  {
+   "no": 10,
+   "occasion": "Evening",
+   "title": "Burgundy and black",
+   "items": [
+    "Hugo Boss charcoal coat",
+    "Hugo Boss burgundy merino crew",
+    "Uniqlo pleated trousers, black",
+    "Black leather Chelsea boots"
+   ],
+   "watch": "Omega x Swatch MoonSwatch, black",
+   "note": "Black kept low and away from your face.",
+   "itemIds": [
+    "coatChar",
+    "knBurg",
+    "trUniBlack",
+    "fChelsea"
+   ],
+   "watchId": "wMoon"
+  },
+  {
+   "no": 11,
+   "occasion": "Evening",
+   "title": "Plum and grey",
+   "items": [
+    "Ted Baker plum peacoat",
+    "Hugo Boss mid-grey merino crew",
+    "Uniqlo pleated trousers, charcoal",
+    "Black leather Chelsea boots"
+   ],
+   "watch": "Studio Underd0g chronograph, silver dial, mesh",
+   "note": "Your peacoat with tonal greys.",
+   "itemIds": [
+    "peacoat",
+    "knGrey",
+    "trUniChar",
+    "fChelsea"
+   ],
+   "watchId": "wUnderdog"
+  },
+  {
+   "no": 12,
+   "occasion": "Evening",
+   "title": "Bottle green, lifted",
+   "items": [
+    "Paul Smith bottle green coat",
+    "White ribbed knit",
+    "Uniqlo pleated trousers, charcoal",
+    "Black leather Chelsea boots"
+   ],
+   "watch": "Longines HydroConquest, grey dial",
+   "note": "A light layer under the dark green.",
+   "itemIds": [
+    "coatGreen",
+    "knWhite",
+    "trUniChar",
+    "fChelsea"
+   ],
+   "watchId": "wLongines"
+  },
+  {
+   "no": 13,
+   "occasion": "Evening",
+   "title": "Navy blazer, denim",
+   "items": [
+    "Navy jersey blazer",
+    "Farah white band-collar oxford",
+    "Zara mid-wash jeans",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "TAG Heuer Carrera day-date, blue dial",
+   "note": "Band collar keeps it relaxed.",
+   "itemIds": [
+    "blzNavyJ",
+    "shBand",
+    "jZara",
+    "fLoafNavy"
+   ],
+   "watchId": "wTag"
+  },
+  {
+   "no": 14,
+   "occasion": "Evening",
+   "title": "Summer wedding",
+   "items": [
+    "Light blue textured blazer",
+    "Farah white band-collar oxford",
+    "White chinos",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "Tissot PRX, ice blue dial",
+   "note": "Your light blue blazer at its best.",
+   "itemIds": [
+    "blzBlue",
+    "shBand",
+    "trWhite",
+    "fLoafNavy"
+   ],
+   "watchId": "wTissot"
+  },
+  {
+   "no": 15,
+   "occasion": "Evening",
+   "title": "Pink statement",
+   "items": [
+    "Pale pink textured blazer",
+    "Zara navy knitted tee",
+    "Hugo Boss navy chinos",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "Studio Underd0g chronograph, silver dial, mesh",
+   "note": "Everything else stays quiet so the blazer leads.",
+   "itemIds": [
+    "blzPink",
+    "tKnitNavy",
+    "trBossNavy",
+    "fLoafNavy"
+   ],
+   "watchId": "wUnderdog"
+  },
+  {
+   "no": 16,
+   "occasion": "Evening",
+   "title": "Lake evening",
+   "items": [
+    "Pale grey pointelle polo",
+    "Next navy slim chinos",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "Tissot PRX, ice blue dial",
+   "note": "Grey that echoes your hair.",
+   "itemIds": [
+    "poPointelle",
+    "trNextNavy",
+    "fLoafNavy"
+   ],
+   "watchId": "wTissot"
+  },
+  {
+   "no": 17,
+   "occasion": "Evening",
+   "title": "Taupe and navy",
+   "items": [
+    "Charles Tyrwhitt taupe button-through knit",
+    "Zara navy knitted tee",
+    "Uniqlo pleated trousers, navy",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "Studio Underd0g chronograph, silver dial, mesh",
+   "note": "Button-through knit worn open.",
+   "itemIds": [
+    "poTaupe",
+    "tKnitNavy",
+    "trUniNavy",
+    "fLoafNavy"
+   ],
+   "watchId": "wUnderdog"
+  },
+  {
+   "no": 18,
+   "occasion": "Weekend",
+   "title": "Barbour classic",
+   "items": [
+    "Barbour navy quilted jacket",
+    "Uniqlo teal-green crew",
+    "Arket heavyweight tees, soft white ×2",
+    "Zara mid-wash jeans",
+    "Brown lace-up boots"
+   ],
+   "watch": "Longines HydroConquest, grey dial",
+   "note": "White tee showing at the neck.",
+   "itemIds": [
+    "barbour",
+    "knUniTeal",
+    "nWhite",
+    "jZara",
+    "fBoots"
+   ],
+   "watchId": "wLongines"
+  },
+  {
+   "no": 19,
+   "occasion": "Weekend",
+   "title": "Winter weekend",
+   "items": [
+    "Navy hooded puffer",
+    "Paul Smith forest green half-zip",
+    "Mustang black straight jeans",
+    "Adidas Campus, cream suede"
+   ],
+   "watch": "Omega x Swatch MoonSwatch, black",
+   "note": "Navy near your face, black away from it.",
+   "itemIds": [
+    "puffer",
+    "knPSGreen",
+    "jMustang",
+    "fCampus"
+   ],
+   "watchId": "wMoon"
+  },
+  {
+   "no": 20,
+   "occasion": "Weekend",
+   "title": "Charcoal denim",
+   "items": [
+    "Washed black denim jacket",
+    "Paul Smith teal-green tee",
+    "Jack & Jones pale grey chinos",
+    "On The Roger, white"
+   ],
+   "watch": "Omega x Swatch MoonSwatch, black",
+   "note": "Teal brightens the charcoal jacket.",
+   "itemIds": [
+    "denimJkt",
+    "tPSTeal",
+    "trPaleGrey",
+    "fRoger"
+   ],
+   "watchId": "wMoon"
+  },
+  {
+   "no": 21,
+   "occasion": "Weekend",
+   "title": "Stone overshirt",
+   "items": [
+    "Stone overshirt",
+    "Zara navy tee",
+    "Levi's light-wash jeans",
+    "Nike white and green"
+   ],
+   "watch": "Longines HydroConquest, grey dial",
+   "note": "Keep the tee navy so the stone overshirt stays cool.",
+   "itemIds": [
+    "ovStone",
+    "tZaraNavy",
+    "jLevisLight",
+    "fNike"
+   ],
+   "watchId": "wLongines"
+  },
+  {
+   "no": 22,
+   "occasion": "Weekend",
+   "title": "Camel casual",
+   "items": [
+    "Hugo Boss camel coat",
+    "Paul Smith navy half-zip",
+    "Levi's black jeans",
+    "Black leather Chelsea boots"
+   ],
+   "watch": "Studio Underd0g chronograph, silver dial, mesh",
+   "note": "Navy half-zip zipped up at the neck.",
+   "itemIds": [
+    "coatCamel",
+    "knPSNavy",
+    "jLevisBlack",
+    "fChelsea"
+   ],
+   "watchId": "wUnderdog"
+  },
+  {
+   "no": 23,
+   "occasion": "Weekend",
+   "title": "Pink, done right",
+   "items": [
+    "Suitsupply navy wool shirt-jacket",
+    "AllSaints dusty pink tee",
+    "Uniqlo pleated trousers, charcoal",
+    "Adidas Campus, cream suede"
+   ],
+   "watch": "Tissot PRX, ice blue dial",
+   "note": "With the new shirt-jacket.",
+   "itemIds": [
+    "nShirtJkt",
+    "tASPink",
+    "trUniChar",
+    "fCampus"
+   ],
+   "watchId": "wTissot"
+  },
+  {
+   "no": 24,
+   "occasion": "Weekend",
+   "title": "Western shirt",
+   "items": [
+    "Light-wash denim western shirt",
+    "Arket heavyweight tee, heather grey",
+    "Uniqlo pleated trousers, navy",
+    "On The Roger, white"
+   ],
+   "watch": "Tissot PRX, ice blue dial",
+   "note": "Worn open over a grey tee.",
+   "itemIds": [
+    "shWestern",
+    "nHeather",
+    "trUniNavy",
+    "fRoger"
+   ],
+   "watchId": "wTissot"
+  },
+  {
+   "no": 25,
+   "occasion": "Japanese",
+   "title": "Indigo and teal",
+   "items": [
+    "Uniqlo pleated trousers, navy",
+    "Farah white band-collar oxford",
+    "Uniqlo teal-green crew",
+    "Adidas Campus, cream suede"
+   ],
+   "watch": "Longines HydroConquest, grey dial",
+   "note": "Teal crew draped over the shoulders or worn over the shirt.",
+   "itemIds": [
+    "trUniNavy",
+    "shBand",
+    "knUniTeal",
+    "fCampus"
+   ],
+   "watchId": "wLongines"
+  },
+  {
+   "no": 26,
+   "occasion": "Japanese",
+   "title": "Grey on grey",
+   "items": [
+    "Hugo Boss charcoal coat",
+    "Farah pale grey quarter-zip",
+    "Uniqlo pleated trousers, charcoal",
+    "On The Roger, white"
+   ],
+   "watch": "Studio Underd0g chronograph, silver dial, mesh",
+   "note": "Tonal greys that echo your hair.",
+   "itemIds": [
+    "coatChar",
+    "knFarah",
+    "trUniChar",
+    "fRoger"
+   ],
+   "watchId": "wUnderdog"
+  },
+  {
+   "no": 27,
+   "occasion": "Japanese",
+   "title": "Black, softened",
+   "items": [
+    "Selected black milano knit",
+    "Arket heavyweight tees, soft white ×2",
+    "Uniqlo pleated trousers, black",
+    "Adidas Campus, cream suede"
+   ],
+   "watch": "Omega x Swatch MoonSwatch, black",
+   "note": "White at the neck and cream trainers soften the black.",
+   "itemIds": [
+    "knMilano",
+    "nWhite",
+    "trUniBlack",
+    "fCampus"
+   ],
+   "watchId": "wMoon"
+  },
+  {
+   "no": 28,
+   "occasion": "Japanese",
+   "title": "Roll-neck and coat",
+   "items": [
+    "Hugo Boss charcoal coat",
+    "Merino roll-neck, grey",
+    "Uniqlo pleated trousers, charcoal",
+    "Black leather Chelsea boots"
+   ],
+   "watch": "Omega x Swatch MoonSwatch, black",
+   "note": "Monochrome with the new roll-neck.",
+   "itemIds": [
+    "coatChar",
+    "nRoll",
+    "trUniChar",
+    "fChelsea"
+   ],
+   "watchId": "wMoon"
+  },
+  {
+   "no": 29,
+   "occasion": "Summer",
+   "title": "Sage and navy",
+   "items": [
+    "Sage camp-collar shirt",
+    "Jack & Jones navy chino shorts",
+    "Adidas Campus, cream suede"
+   ],
+   "watch": "Longines HydroConquest, grey dial",
+   "note": "Your best summer colour.",
+   "itemIds": [
+    "ssSage",
+    "shoNavy",
+    "fCampus"
+   ],
+   "watchId": "wLongines"
+  },
+  {
+   "no": 30,
+   "occasion": "Summer",
+   "title": "Chambray and stone",
+   "items": [
+    "Levi's chambray",
+    "Jack & Jones stone chino shorts",
+    "Nike white and green"
+   ],
+   "watch": "Tissot PRX, ice blue dial",
+   "note": "",
+   "itemIds": [
+    "ssChambray",
+    "shoStone",
+    "fNike"
+   ],
+   "watchId": "wTissot"
+  },
+  {
+   "no": 31,
+   "occasion": "Summer",
+   "title": "Green stripe, white",
+   "items": [
+    "Next ribbed stripe, dark green and beige",
+    "White chinos",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "Longines HydroConquest, grey dial",
+   "note": "Forest green and beige, low contrast.",
+   "itemIds": [
+    "ssNextGreen",
+    "trWhite",
+    "fLoafNavy"
+   ],
+   "watchId": "wLongines"
+  },
+  {
+   "no": 32,
+   "occasion": "Summer",
+   "title": "Aqua weekend",
+   "items": [
+    "Hugo Boss pale aqua tee",
+    "Sage jersey shorts",
+    "On The Roger, white"
+   ],
+   "watch": "Tissot PRX, ice blue dial",
+   "note": "Calm and cool on hot days.",
+   "itemIds": [
+    "tAqua",
+    "shoSage",
+    "fRoger"
+   ],
+   "watchId": "wTissot"
+  },
+  {
+   "no": 33,
+   "occasion": "Summer",
+   "title": "Breton and white",
+   "items": [
+    "Zara cream and navy striped knit tee",
+    "White chino shorts",
+    "Navy suede tassel loafers"
+   ],
+   "watch": "TAG Heuer Carrera day-date, blue dial",
+   "note": "Navy stripe, not black, so it stays soft.",
+   "itemIds": [
+    "tBreton",
+    "shoWhite",
+    "fLoafNavy"
+   ],
+   "watchId": "wTag"
+  },
+  {
+   "no": 34,
+   "occasion": "Summer",
+   "title": "Pink and grey",
+   "items": [
+    "AllSaints dusty pink tee",
+    "Jack & Jones pale grey chinos",
+    "Adidas Campus, cream suede"
+   ],
+   "watch": "Tissot PRX, ice blue dial",
+   "note": "",
+   "itemIds": [
+    "tASPink",
+    "trPaleGrey",
+    "fCampus"
+   ],
+   "watchId": "wTissot"
+  }
+ ],
+ "shopping": [
+  {
+   "group": "1 · Replace the black tops",
+   "items": [
+    {
+     "name": "Merino roll-neck, grey or charcoal",
+     "where": "Arket or Suitsupply · size M",
+     "note": "Under the charcoal coat for the monochrome look. The one knit you don't own yet.",
+     "priceCHF": 120,
+     "approx": true,
+     "url": null,
+     "colour": "heather"
+    },
+    {
+     "name": "Next heavyweight tee 3-pack: burgundy, ecru, sage",
+     "where": "Zalando · order S and M, keep one",
+     "note": "Everyday tees. Check in daylight that the burgundy is wine, not brick.",
+     "priceCHF": 66,
+     "approx": false,
+     "url": "https://www.zalando.ch/next-heavyweight-t-shirts-3-pack-basic-t-shirt-burgundy-ecru-sage-nx322o17d-a15.html",
+     "colour": "sage"
+    },
+    {
+     "name": "Heavyweight tees ×3: 2 soft white, 1 heather grey",
+     "where": "Arket · M in regular fit",
+     "note": "The whites that show under blazers and coats.",
+     "priceCHF": 110,
+     "approx": true,
+     "url": null,
+     "colour": "white"
+    }
+   ],
+   "intro": "Your Boss grey, Boss burgundy, Uniqlo green and Paul Smith knits already cover most of this. Only the gaps remain."
+  },
+  {
+   "group": "2 · Office and evenings",
+   "items": [
+    {
+     "name": "Navy checked Havana blazer, pure wool",
+     "where": "Suitsupply · try 48 and 50",
+     "note": "A proper blazer, not a suit jacket. Size for your shoulders and let them take in the waist. Avoid the boxiness you had with Boss.",
+     "priceCHF": 509,
+     "approx": false,
+     "url": "https://suitsupply.com/en-ch/men/jackets/navy-checked-tailored-fit-havana-blazer/C261015.html",
+     "colour": "navy"
+    },
+    {
+     "name": "Dark grey flannel trousers",
+     "where": "Suitsupply · W32, hemmed to your leg",
+     "note": "S120's Vitale Barberis Canonico flannel. Warmer and smarter than your cotton office trousers, for winter days with the blazer. Optional: your grey check trousers cover most office days. Listed as 'Dark Grey Straight Leg Suit Trousers' (B6905).",
+     "priceCHF": 189,
+     "approx": false,
+     "url": "https://suitsupply.com/en-qa/men/trousers/dark-grey-straight-leg-suit-trousers/B6905.html",
+     "colour": "charcoal"
+    },
+    {
+     "name": "Dark brown suede penny loafers",
+     "where": "Suitsupply · EU 44 or 45",
+     "note": "Works with flannels, chinos and denim. Matches your new brown belt.",
+     "priceCHF": 249,
+     "approx": false,
+     "url": "https://suitsupply.com/en-ch/men/shoes/dark-brown-penny-loafer/FLF10026B01.html",
+     "colour": "cocoa"
+    },
+    {
+     "name": "Navy wool shirt-jacket, relaxed fit",
+     "where": "Suitsupply · size M",
+     "note": "Weekend layer over tees and knits, and the start of the Japanese look.",
+     "priceCHF": 279,
+     "approx": false,
+     "url": null,
+     "colour": "navy"
+    }
+   ],
+   "intro": "One jacket and two pairs of trousers give you a week of office outfits with your Charles Tyrwhitt shirts."
+  },
+  {
+   "group": "3 · Camel coat fix",
+   "items": [
+    {
+     "name": "Wool scarf, charcoal or grey",
+     "where": "Arket or COS",
+     "note": "Wear it with the camel coat every time. Upgrade to Johnstons of Elgin cashmere later.",
+     "priceCHF": 60,
+     "approx": true,
+     "url": null,
+     "colour": "charcoal"
+    }
+   ],
+   "intro": ""
+  }
+ ],
+ "canWait": [
+  {
+   "item": "John Smedley knitted polo, navy",
+   "note": "Best use of the CHF 420 left this round. Replaces the faded Charles Tyrwhitt polos and lasts for years."
+  },
+  {
+   "item": "Cobbler refresh",
+   "note": "Resole and recolour the brown cap-toe oxfords and lace-up boots, about CHF 60–100. Cheaper than replacing them."
+  },
+  {
+   "item": "Wide pleated trousers, grey or taupe",
+   "note": "For the Japanese direction. Arket, COS or Uniqlo on a trip abroad."
+  },
+  {
+   "item": "Pale pink Charles Tyrwhitt shirt",
+   "note": "Shell pink, 41/86 slim."
+  },
+  {
+   "item": "Golf polos in sage and pale aqua",
+   "note": "Adidas, size M. Replace coral polos as they wear out."
+  },
+  {
+   "item": "Wine cords",
+   "note": "Arket or Suitsupply. Autumn weekends."
+  },
+  {
+   "item": "Cashmere scarf",
+   "note": "Johnstons of Elgin in charcoal or grey-blue. A good statement piece."
+  }
+ ],
+ "budgetCHF": 2000,
+ "trip": {
+  "title": "One Zurich trip covers most of it",
+  "text": "Suitsupply, Nüschelerstrasse 26: blazer, trousers, merino crews, loafers. Book a fitting so they can pin the blazer and hem the trousers. Arket on the same trip: tees, wine crew, roll-neck, scarf. There's no Uniqlo in Switzerland and it doesn't ship here directly, so save Uniqlo top-ups for trips to Milan or Germany."
+ },
+ "sizes": [
+  [
+   "Shirts",
+   "41 / 86 slim"
+  ],
+  [
+   "Knits & tees",
+   "M (L in boxy tees)"
+  ],
+  [
+   "Trousers",
+   "W32 L31–32"
+  ],
+  [
+   "Jacket",
+   "Try 48 and 50"
+  ],
+  [
+   "Coat",
+   "Hugo Boss UK 48"
+  ],
+  [
+   "Shoes",
+   "EU 44–45"
+  ]
+ ],
+ "extraColours": {
+  "black": {
+   "name": "Black",
+   "hex": "#16171A"
+  },
+  "camel": {
+   "name": "Camel",
+   "hex": "#B8956A"
+  }
+ },
+ "caution": [
+  {
+   "hex": "#16171A",
+   "name": "Black",
+   "level": "Caution",
+   "why": "Heavy near your face; deepens under-eye shadows.",
+   "fix": "Keep for trousers, shoes, outerwear. Show a white tee at the neckline or add a grey scarf."
+  },
+  {
+   "hex": "#B8956A",
+   "name": "Camel",
+   "level": "Caution",
+   "why": "Warms your skin towards ruddy.",
+   "fix": "Always with navy, charcoal or grey at the neck."
+  },
+  {
+   "hex": "#2D4FB5",
+   "name": "Cobalt / royal blue",
+   "level": "Caution",
+   "why": "Makes your eyes pop but sharpens cheek redness.",
+   "fix": "Fine in small patterns or on casual days. Replace solids with cornflower."
+  },
+  {
+   "hex": "#D2452F",
+   "name": "Tomato red",
+   "level": "Avoid",
+   "why": "Your least flattering drape. Redness takes over your face.",
+   "fix": "Wear wine or muted raspberry instead."
+  },
+  {
+   "hex": "#E8806A",
+   "name": "Coral & salmon",
+   "level": "Avoid",
+   "why": "Echoes your natural flush.",
+   "fix": "Try dusty mauve-pink."
+  },
+  {
+   "hex": "#E35B2C",
+   "name": "Orange",
+   "level": "Avoid",
+   "why": "Like the Helly Hansen fleece: very visible redness.",
+   "fix": "Choose navy, spruce or slate for outdoor layers."
+  },
+  {
+   "hex": "#E0607E",
+   "name": "Rose & watermelon pink",
+   "level": "Avoid near face",
+   "why": "Merges with your flush and reads blotchy.",
+   "fix": "Shell pink, or keep the warm pinks under a navy layer."
+  },
+  {
+   "hex": "#7A7442",
+   "name": "Olive & khaki",
+   "level": "Avoid near face",
+   "why": "Looks muddy against ash hair.",
+   "fix": "Stone for trousers, sage or spruce for tops."
+  },
+  {
+   "hex": "#C9A033",
+   "name": "Mustard & rust",
+   "level": "Avoid",
+   "why": "Turns your skin sallow.",
+   "fix": "For a rich autumn colour, choose wine or dusty teal instead."
+  }
+ ],
+ "rules": [
+  [
+   "Calm the redness",
+   "Cool greens and blues near your face make your skin look even. Warm reds, corals and oranges make the flush on your nose and cheeks stronger."
+  ],
+  [
+   "Keep contrast moderate",
+   "Charcoal with sky blue beats black with white. Pair a dark with a mid or light tone, not with its exact opposite."
+  ],
+  [
+   "One accent per outfit",
+   "Tonal greys or navies, then one note of sage, teal, lilac or wine. That's your monochrome-with-a-pop look."
+  ],
+  [
+   "Buffer the tricky colours",
+   "Camel, black and saturated blues work best with a grey, navy or white layer between them and your face."
+  ],
+  [
+   "Texture over shine",
+   "Merino, flannel, oxford cloth and heathered cotton suit soft colouring better than glossy or high-sheen fabrics."
+  ],
+  [
+   "Metals",
+   "Silver, steel, white gold and gunmetal. Straps in steel, grey, navy or dark brown-grey leather."
+  ]
+ ]
+}

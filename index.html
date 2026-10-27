@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Colour Wardrobe</title>
+<meta name="description" content="Gavin's colour dictionary, outfits, wardrobe audit and shopping list.">
+<meta name="theme-color" content="#ECEBE6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1C1D20" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Wardrobe">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="appbar">
+  <div class="appbar-in">
+    <h1 id="viewTitle">Today</h1>
+    <span class="eyebrow" id="viewSub">Soft Summer · cool-leaning</span>
+  </div>
+</header>
+
+<main id="main">
+  <section class="view" id="v-today" data-title="Today" aria-labelledby="viewTitle">
+    <div class="hero">
+      <div class="hero-blocks" aria-hidden="true">
+        <div style="background:#4A4E54;grid-row:1/3"></div><div style="background:#2F4F45"></div>
+        <div style="background:#9CAF9A"></div><div style="background:#2E3A55"></div><div style="background:#B7A9C9"></div>
+      </div>
+      <div class="hero-text">
+        <span class="eyebrow" id="todayDate"></span>
+        <h2 id="greeting">Good morning, Gavin</h2>
+        <p class="jp">配色事典 · 個人版</p>
+      </div>
+    </div>
+    <div class="seg" role="group" aria-label="Occasion" id="todayOcc"></div>
+    <div id="todayOutfit"></div>
+    <div class="row-actions">
+      <button type="button" class="btn ghost" id="shuffleBtn">Show another</button>
+      <button type="button" class="btn ghost" id="ideaBtn">New idea</button>
+      <button type="button" class="btn ghost wide" id="saveBtn" hidden>Save this outfit</button>
+      <button type="button" class="btn wide" id="woreBtn">I wore this today</button>
+    </div>
+    <div class="card rule-card" id="ruleOfDay"></div>
+    <div class="meta-grid" id="profileGrid"></div>
+    <div class="install-hint" id="installHint" hidden></div>
+  </section>
+
+  <section class="view" id="v-colours" data-title="Colours" hidden>
+    <div class="seg" role="tablist" aria-label="Colour sections" id="colourSeg"></div>
+    <div id="palettePane"></div>
+    <div id="avoidPane" hidden></div>
+    <div id="rulesPane" hidden></div>
+  </section>
+
+  <section class="view" id="v-outfits" data-title="Outfits" hidden>
+    <div class="chips" role="group" aria-label="Filter outfits by occasion" id="outfitFilters"></div>
+    <div class="list" id="outfitList"></div>
+  </section>
+
+  <section class="view" id="v-wardrobe" data-title="Wardrobe" hidden>
+    <label class="search"><span class="sr">Search wardrobe</span>
+      <input type="search" id="wSearch" placeholder="Search 147 items" autocomplete="off"></label>
+    <div class="chips" role="group" aria-label="Filter wardrobe by verdict" id="wFilters"></div>
+    <p class="summary" id="wSummary"></p>
+    <div id="wardrobeList"></div>
+  </section>
+
+  <section class="view" id="v-shop" data-title="Shopping" hidden>
+    <div class="budget card">
+      <div class="budget-top"><span class="eyebrow">Round one budget</span><span class="mono" id="spentTxt"></span></div>
+      <div class="bar"><div id="spentBar"></div></div>
+      <p class="summary" id="listTxt" style="margin-top:8px"></p>
+    </div>
+    <div class="sizes" id="sizes"></div>
+    <div id="shopList"></div>
+  </section>
+</main>
+
+<nav class="tabbar" aria-label="Main">
+  <a href="#today" data-v="today"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg><span>Today</span></a>
+  <a href="#colours" data-v="colours"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="8" height="8"/><rect x="13" y="3" width="8" height="8"/><rect x="3" y="13" width="8" height="8"/><rect x="13" y="13" width="8" height="8"/></svg><span>Colours</span></a>
+  <a href="#outfits" data-v="outfits"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3 L4 6 L6 10 L8 9 V21 H16 V9 L18 10 L20 6 L16 3 Q12 6 8 3 Z"/></svg><span>Outfits</span></a>
+  <a href="#wardrobe" data-v="wardrobe"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6 a2 2 0 1 1 2 -2 M12 6 v2 L3 15 Q2 17 4 17 H20 Q22 17 21 15 L12 8"/></svg><span>Wardrobe</span></a>
+  <a href="#shop" data-v="shop"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8 H19 L18 21 H6 Z M9 8 V6 a3 3 0 0 1 6 0 V8"/></svg><span>Shop</span></a>
+</nav>
+
+<dialog id="sheet" aria-labelledby="sheetTitle">
+  <div class="sheet-in">
+    <button type="button" class="sheet-close" id="sheetClose" aria-label="Close">×</button>
+    <div id="sheetBody"></div>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="illustrations.js"></script>
+<script src="generator.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
